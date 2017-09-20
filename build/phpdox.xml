@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <phpdox xmlns="http://xml.phpdox.net/config">
- <project name="Money" source="../src/application" workdir="phpdox">
+ <project name="codeigniter-test" source="../src/application" workdir="phpdox">
   <collector publiconly="false">
    <include mask="*.php" />
    <exclude mask="*autoload.php" />
