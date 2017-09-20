@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Currency.php">
+    <totals>
+      <lines total="1235" comments="72" code="1163" executable="22" executed="22" percent="100.00%"/>
+      <methods count="9" tested="9" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Currency" start="26" executable="22" executed="22" crap="11">
+      <package full="Money" name="Money" sub="" category=""/>
+      <namespace name="SebastianBergmann\Money"/>
+      <method name="__construct" signature="__construct($currencyCode)" start="1135" end="1148" crap="3" executable="9" executed="9" coverage="100"/>
+      <method name="addCurrency" signature="addCurrency($code, $displayName, $numericCode, $defaultFractionDigits, $subUnit)" start="1157" end="1165" crap="1" executable="6" executed="6" coverage="100"/>
+      <method name="getCurrencies" signature="getCurrencies()" start="1170" end="1173" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getCurrencyCode" signature="getCurrencyCode()" start="1180" end="1183" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getDefaultFractionDigits" signature="getDefaultFractionDigits()" start="1191" end="1194" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getDisplayName" signature="getDisplayName()" start="1201" end="1204" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getNumericCode" signature="getNumericCode()" start="1211" end="1214" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getSubUnit" signature="getSubUnit()" start="1221" end="1224" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="__toString" signature="__toString()" start="1231" end="1234" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="1137">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromUppercaseString"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1138">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1139">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1141">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromUppercaseString"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1142">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+      </line>
+      <line nr="1143">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+      </line>
+      <line nr="1144">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument"/>
+      </line>
+      <line nr="1147">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromUppercaseString"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1148">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromUppercaseString"/>
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString"/>
+      </line>
+      <line nr="1159">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1160">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1161">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1162">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1163">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1165">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered"/>
+      </line>
+      <line nr="1172">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testRegisteredCurrenciesCanBeAccessed"/>
+      </line>
+      <line nr="1182">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCurrencyCodeCanBeRetrieved"/>
+      </line>
+      <line nr="1193">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testDefaultFractionDigitsCanBeRetrieved"/>
+      </line>
+      <line nr="1203">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testDisplayNameCanBeRetrieved"/>
+      </line>
+      <line nr="1213">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testNumericCodeCanBeRetrieved"/>
+      </line>
+      <line nr="1223">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testSubUnitCanBeRetrieved"/>
+      </line>
+      <line nr="1233">
+        <covered by="SebastianBergmann\Money\CurrencyTest::testCanBeCastToString"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

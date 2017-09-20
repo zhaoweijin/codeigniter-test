@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="IntlFormatter.php">
+    <totals>
+      <lines total="55" comments="29" code="26" executable="8" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="IntlFormatter" start="24" executable="8" executed="0" crap="6">
+      <package full="Money" name="Money" sub="" category=""/>
+      <namespace name="SebastianBergmann\Money"/>
+      <method name="__construct" signature="__construct($locale)" start="34" end="40" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="format" signature="format(Money $money)" start="48" end="54" crap="2" executable="4" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

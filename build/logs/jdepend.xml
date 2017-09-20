@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="SebastianBergmann\Money">
+      <Stats>
+        <TotalClasses>189</TotalClasses>
+        <ConcreteClasses>187</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0.010582010582011</A>
+        <I>1</I>
+        <D>0.010582010582011</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/zwj/server/money/src/Currency.php">Currency</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/IntlFormatter.php">IntlFormatter</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/Money.php">Money</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AED.php">AED</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AFN.php">AFN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ALL.php">ALL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AMD.php">AMD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ANG.php">ANG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AOA.php">AOA</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ARS.php">ARS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AUD.php">AUD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AWG.php">AWG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/AZN.php">AZN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BAM.php">BAM</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BBD.php">BBD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BDT.php">BDT</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BGN.php">BGN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BHD.php">BHD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BIF.php">BIF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BMD.php">BMD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BND.php">BND</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BOB.php">BOB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BOV.php">BOV</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BRL.php">BRL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BSD.php">BSD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BTN.php">BTN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BWP.php">BWP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BYR.php">BYR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/BZD.php">BZD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CAD.php">CAD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CDF.php">CDF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CHE.php">CHE</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CHF.php">CHF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CHW.php">CHW</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CLF.php">CLF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CLP.php">CLP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CNY.php">CNY</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/COP.php">COP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/COU.php">COU</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CRC.php">CRC</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CUC.php">CUC</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CUP.php">CUP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CVE.php">CVE</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/CZK.php">CZK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/DJF.php">DJF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/DKK.php">DKK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/DOP.php">DOP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/DZD.php">DZD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/EGP.php">EGP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ERN.php">ERN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ETB.php">ETB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/EUR.php">EUR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/FJD.php">FJD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/FKP.php">FKP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GBP.php">GBP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GEL.php">GEL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GHS.php">GHS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GIP.php">GIP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GMD.php">GMD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GNF.php">GNF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GTQ.php">GTQ</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/GYD.php">GYD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/HKD.php">HKD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/HNL.php">HNL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/HRK.php">HRK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/HTG.php">HTG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/HUF.php">HUF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/IDR.php">IDR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ILS.php">ILS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/INR.php">INR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/IQD.php">IQD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/IRR.php">IRR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ISK.php">ISK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/JMD.php">JMD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/JOD.php">JOD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/JPY.php">JPY</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KES.php">KES</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KGS.php">KGS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KHR.php">KHR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KMF.php">KMF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KPW.php">KPW</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KRW.php">KRW</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KWD.php">KWD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KYD.php">KYD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/KZT.php">KZT</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LAK.php">LAK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LBP.php">LBP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LKR.php">LKR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LRD.php">LRD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LSL.php">LSL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LTL.php">LTL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LVL.php">LVL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/LYD.php">LYD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MAD.php">MAD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MDL.php">MDL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MGA.php">MGA</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MKD.php">MKD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MMK.php">MMK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MNT.php">MNT</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MOP.php">MOP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MRO.php">MRO</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MUR.php">MUR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MVR.php">MVR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MWK.php">MWK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MXN.php">MXN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MXV.php">MXV</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MYR.php">MYR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/MZN.php">MZN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NAD.php">NAD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NGN.php">NGN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NIO.php">NIO</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NOK.php">NOK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NPR.php">NPR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/NZD.php">NZD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/OMR.php">OMR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PAB.php">PAB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PEN.php">PEN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PGK.php">PGK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PHP.php">PHP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PKR.php">PKR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PLN.php">PLN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/PYG.php">PYG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/QAR.php">QAR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/RON.php">RON</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/RSD.php">RSD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/RUB.php">RUB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/RWF.php">RWF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SAR.php">SAR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SBD.php">SBD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SCR.php">SCR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SDG.php">SDG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SEK.php">SEK</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SGD.php">SGD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SHP.php">SHP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SLL.php">SLL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SOS.php">SOS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SRD.php">SRD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SSP.php">SSP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/STD.php">STD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SVC.php">SVC</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SYP.php">SYP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/SZL.php">SZL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/THB.php">THB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TJS.php">TJS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TMT.php">TMT</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TND.php">TND</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TOP.php">TOP</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TTD.php">TTD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TWD.php">TWD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/TZS.php">TZS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/UAH.php">UAH</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/UGX.php">UGX</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/USD.php">USD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/USN.php">USN</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/USS.php">USS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/UYI.php">UYI</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/UYU.php">UYU</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/UZS.php">UZS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/VEF.php">VEF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/VND.php">VND</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/VUV.php">VUV</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/WST.php">WST</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XAF.php">XAF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XAG.php">XAG</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XAU.php">XAU</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XBA.php">XBA</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XBB.php">XBB</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XBC.php">XBC</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XBD.php">XBD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XCD.php">XCD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XDR.php">XDR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XFU.php">XFU</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XOF.php">XOF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XPD.php">XPD</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XPF.php">XPF</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XPT.php">XPT</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XSU.php">XSU</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XTS.php">XTS</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XUA.php">XUA</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/XXX.php">XXX</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/YER.php">YER</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ZAR.php">ZAR</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ZMW.php">ZMW</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/currency/ZWL.php">ZWL</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/exceptions/CurrencyMismatchException.php">CurrencyMismatchException</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/exceptions/InvalidArgumentException.php">InvalidArgumentException</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/exceptions/OverflowException.php">OverflowException</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/Users/zwj/server/money/src/interfaces/Exception.php">Exception</Class>
+        <Class sourceFile="/Users/zwj/server/money/src/interfaces/Formatter.php">Formatter</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

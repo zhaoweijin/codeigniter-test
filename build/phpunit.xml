@@ -1,0 +1,28 @@
+<phpunit
+    bootstrap="../tests/Bootstrap.php"
+    backupGlobals="true"
+    colors="true">
+    <testsuites>
+        <testsuite name="CodeIgniter Application Test Suite">
+            <directory suffix="test.php">../tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../src/application/controllers</directory>
+            <directory suffix=".php">../src/application/models</directory>
+            <directory suffix=".php">../src/application/views</directory>
+            <directory suffix=".php">../src/application/libraries</directory>
+            <directory suffix=".php">../src/application/helpers</directory>
+            <directory suffix=".php">../src/application/hooks</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="coverage"/>
+        <log type="coverage-clover" target="logs/clover.xml"/>
+        <log type="coverage-crap4j" target="logs/crap4j.xml"/>
+        <log type="coverage-xml" target="logs/coverage"/>
+        <log type="junit" target="logs/junit.xml" logIncompleteSkipped="false"/>
+        <log type="testdox-html" target="testdox/index.html"/>
+    </logging>
+</phpunit>
