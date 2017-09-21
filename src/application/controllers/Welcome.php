@@ -28,7 +28,7 @@ class Welcome extends CI_Controller {
 		$st = $this->input->get('st', true);
         $et = $this->input->get('et', true);
 
-        if($st.$et){
+        if($st<$et){
         	echo json_encode(
         			array('status' => TRUE,
 	                'message' => 'some script access allowed'
