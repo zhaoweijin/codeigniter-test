@@ -40,4 +40,40 @@ class Welcome extends CI_Controller {
 	                ));
         }
 	}
+
+    public function run_post()
+    {
+        $st = $this->input->post('st', true);
+        $et = $this->input->post('et', true);
+
+        if($st<$et){
+            echo json_encode(
+                array('status' => TRUE,
+                    'message' => 'some script access allowed'
+                ));
+        }else{
+            echo json_encode(
+                array('status' => FALSE,
+                    'message' => 'No direct script access allowed'
+                ));
+        }
+    }
+
+    public function run_function_exists()
+    {
+        $st = $this->input->post('st', true);
+        $et = $this->input->post('et', true);
+
+        if($st<$et){
+            echo json_encode(
+                array('status' => TRUE,
+                    'message' => 'some script access allowed'
+                ));
+        }else{
+            echo json_encode(
+                array('status' => FALSE,
+                    'message' => 'No direct script access allowed'
+                ));
+        }
+    }
 }

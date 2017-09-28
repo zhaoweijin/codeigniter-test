@@ -38,4 +38,26 @@ class Welcome_test extends TestCase
 		$output = $this->request('GET', 'welcome/run',['st'=>'20170914','et'=>'20170915']);
 		$this->assertContains('some script access allowed', $output);
 	}
+
+    public function test_run_post()
+    {
+        $output = $this->request('POST', 'welcome/run_post',['st'=>'20170914','et'=>'20170915']);
+        $this->assertContains('some script access allowed', $output);
+
+        // 在这里停止，并将此测试标记为未完成。
+        $this->markTestIncomplete(
+            '此测试目前尚未实现。'
+        );
+    }
+
+    public function test_function_exists()
+    {
+        if (function_exists('imap_open')) {
+            echo "IMAP functions are available.<br />\n";
+        } else {
+            $this->markTestSkipped(
+                'imap_open 函数不可用。'
+            );
+        }
+    }
 }
